@@ -26,8 +26,8 @@ let myGeoIpString: any = null;
 const KV_PAIR_PROXY_FILE = "./kvProxyList.json";
 const RAW_PROXY_LIST_FILE = "./rawProxyList.txt";
 const PROXY_LIST_FILE = "./ProxyList.txt";
-const IP_RESOLVER_DOMAIN = "myip.ipeek.workers.dev";
-const IP_RESOLVER_PATH = "/";
+const IP_RESOLVER_DOMAIN = "ip.yamete.biz.id";
+const IP_RESOLVER_PATH = "/api";
 const CONCURRENCY = 99;
 
 const CHECK_QUEUE: string[] = [];
@@ -112,7 +112,7 @@ export async function checkProxy(proxyAddress: string, proxyPort: number): Promi
 //   setTimeout(() => controller.abort(), 5000);
 
 //   try {
-//     const res = await Bun.fetch(IP_RESOLVER_DOMAIN + `?ip=${proxyAddress}:${proxyPort}`, {
+//     const res = await Bun.fetch(IP_RESOLVER_DOMAIN + `api?ip=${proxyAddress}:${proxyPort}`, {
 //       signal: controller.signal,
 //     });
 
