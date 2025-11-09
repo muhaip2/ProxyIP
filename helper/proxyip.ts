@@ -26,8 +26,8 @@ let myGeoIpString: any = null;
 const KV_PAIR_PROXY_FILE = "./kvProxyList.json";
 const RAW_PROXY_LIST_FILE = "./rawProxyList.txt";
 const PROXY_LIST_FILE = "./ProxyIP.txt";
-const IP_RESOLVER_DOMAIN = "ip.yamete.biz.id";
-const IP_RESOLVER_PATH = "/api";
+const IP_RESOLVER_DOMAIN = "ipcek.cabang.web.id";
+const IP_RESOLVER_PATH = "/";
 const CONCURRENCY = 99;
 
 const CHECK_QUEUE: string[] = [];
